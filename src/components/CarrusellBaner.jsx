@@ -3,7 +3,7 @@ const CarrusellBanner = () => {
     const fecha = ' 7:00 PM'
 
     return <>
-        <div className="h-10 bg-red-400 slideTrack">
+        <div className="h-10 bg-red-400 slideTrack aqui_puse_un_cambio">
             <Date fecha={fecha} />
             <Date wb fecha={fecha} />
             <Date fecha={fecha} />
