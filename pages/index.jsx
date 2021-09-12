@@ -6,24 +6,28 @@ import Footer from '../src/components/Footer'
 export default function Home() {
   return (
     <MainLayout>
-      <section className="centers flex-col text-4xl text-center">
-        <h1 className="lg:w-1/4 mt-10 lg:mt-24 mb-10 overflow-hidden">
+      <section className="centers flex-col text-6xl text-center">
+        <h1 className="lg:w-2/4 mt-10 lg:mt-24 mb-10 overflow-hidden">
           Lluvia de ideas, negocios y oportunidades para el 2022.
         </h1>
-        <div className="w-60 border" />
-        <span className="text-lg font-light my-10 w-3/5">Descubrirás oportunidades de negocios rentables para emprender en el 2022, sin mucho presupuesto y con gran potencial</span>
-        <div className="my-3 flex">
-          <CustomInput
-            id={'email'}
-            name={'correo'}
-            placeholder={'Tu correo'}
-            type={'text'}
-            solo
-          />
-          <button className="bg-secondary text-white p-8 py-3 text-sm">
-            ¡registrate ahora!
-          </button>
+        <span className="text-lg font-light mb-12 w-3/5">Descubrirás oportunidades de negocios rentables para emprender en el 2022, sin mucho presupuesto y con gran potencial</span>
+        <div className="mb-16 h-10 center-X items-end w-2/5">
+          <div className="w-96">
+            <CustomInput
+              id={'email'}
+              name={''}
+              placeholder={'Ingresa tu correo aquí'}
+              type={'text'}
+              solo
+            />
+          </div>
+          <div className="text-center">
+            <button className="bg-secondary text-white p-8 py-3 text-sm">
+              ¡registrate ahora!
+            </button>
+          </div>
         </div>
+        {/* <div className="w-60 border my-10" /> */}
       </section>
 
       <section className="center-Y w-full flex-col">
@@ -33,19 +37,19 @@ export default function Home() {
           </div>
         </div>
         <div className="w-3/5">
-          <div className="w-full mt-10 center-X">
+          {/* <div className="w-full mt-10 center-X">
             <Form />
-          </div>
+          </div> */}
         </div>
-        <div className="border my-6 w-3/4" />
+        <div className="border my-6 mt-16 w-3/4" />
       </section>
 
       <section className="center-Y flex-col">
-        <div className="text-lg text-center font-light my-10 w-3/5">
+        <div className="text-2xl text-justify font-light my-10 w-3/5">
           <span>¿Quién dijo que no es momento de emprender? La actual pandemia nos ha llenado de temores, frustraciones e incertidumbre. Los periódicos y noticieros se han encargado de difundir el lado más oscuro: millones de empleos perdidos, países en crisis, personas deprimidas, muerte y desconsuelo. Pero también existe un lado B. El lado de las oportunidades, el de las posibilidades, el de las ideas y el del “sí se puede”.</span>
         </div>
         <div className="border my-6 w-3/4" />
-        <div className="text-lg text-center font-light my-10 w-3/5">
+        <div className="text-2xl text-justify font-light my-10 w-3/5">
           <span>
             <p classNames="bold"> Esta Masterclass puede convertirse en los mejores 60 minutos de tu vida.</p>
 
@@ -62,7 +66,7 @@ export default function Home() {
         </div>
       </section>
       <section className="center-Y flex-col">
-        <div className="text-lg text-center font-light my-10 w-3/5">
+        <div className="text-2xl text-justify font-light my-10 w-3/5">
           <span>Esta Masterclass es para ti si:
 
             Haz intentado emprender en más de una ocasión, sin éxito
@@ -76,7 +80,7 @@ export default function Home() {
             O simplemente tienes curiosidad de conocer qué negocios funcionarán con éxito en el 2022</span>
         </div>
         <div className="border my-6 w-3/4" />
-        <div className="text-lg text-center font-light my-10 w-3/5">
+        <div className="text-2xl text-justify font-light my-10 w-3/5">
           <span>
             Aquí te cuento un poco sobre mi:
 
