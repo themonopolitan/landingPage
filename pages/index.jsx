@@ -47,7 +47,7 @@ export default function Home() {
         <div className="border my-6 w-3/4" />
         <div className="text-lg text-center font-light my-10 w-3/5">
           <span>
-            <p class="bold"> Esta Masterclass puede convertirse en los mejores 60 minutos de tu vida.</p>
+            <p classNames="bold"> Esta Masterclass puede convertirse en los mejores 60 minutos de tu vida.</p>
 
             Quiero ayudarte a que encuentres una idea de negocio que te diversifique y que en un futuro multiplique tus ingresos.
 

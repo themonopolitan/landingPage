@@ -6,10 +6,6 @@
     font-family: Benguiat_Bold;
     src: url(../src/assets/fonts/Benguiat_Bold.ttf);
 }
-@font-face {
-    font-family: Benguiat_Regular;
-    src: url(../src/assets/fonts/Benguiat_Regular.ttf);
-}
 
 h1 {
     font-family: Benguiat_Bold;
@@ -20,7 +16,7 @@ h1 {
 }
 
 p {
-    font-family: Benguiat_Regular;
+    font-family: Benguiat_Normal;
 }
 
 span {
