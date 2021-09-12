@@ -20,10 +20,34 @@ export default function Home() {
             <iframe src="https://player.vimeo.com/video/540944873?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=9d328be537" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Ejercicio utilizando el enfoque de &amp;quot;Podar&amp;quot;"></iframe>
           </div>
         </div>
-        <div className="w-2/4 mt-10">
-          <Form />
+        <div className="w-3/5">
+          <div className="w-full mt-10 center-X">
+            <Form />
+          </div>
         </div>
         <div className="border my-6 w-3/4" />
+      </section>
+
+      <section className="center-Y flex-col">
+        <div className="text-lg text-center font-light my-10 w-3/5">
+          <span>¿Quién dijo que no es momento de emprender? La actual pandemia nos ha llenado de temores, frustraciones e incertidumbre. Los periódicos y noticieros se han encargado de difundir el lado más oscuro: millones de empleos perdidos, países en crisis, personas deprimidas, muerte y desconsuelo. Pero también existe un lado B. El lado de las oportunidades, el de las posibilidades, el de las ideas y el del “sí se puede”.</span>
+        </div>
+        <div className="border my-6 w-3/4" />
+        <div className="text-lg text-center font-light my-10 w-3/5">
+          <span>
+            Esta Masterclass puede convertirse en los mejores 60 minutos de tu vida.
+
+            Quiero ayudarte a que encuentres una idea de negocio que te diversifique y que en un futuro multiplique tus ingresos.
+
+            Quizá, aquí encuentres ese negocio perfecto que te permitirá ganar dinero extra para irte de vacaciones el próximo año, o esa mega oportunidad que te permita convertirte en el exitoso emprendedor que siempre soñaste. O tal vez, sea el espacio en el que encuentres a tu futuro socio.
+
+            Acuérdate que todo comienza con una buena idea y yo tengo muchas para compartir contigo.
+          </span>
+          <div className="border my-6 w-3/4" />
+          <div className="w-full center-X">
+            <Form />
+          </div>
+        </div>
       </section>
       <div className="center-X container mx-auto my">
       </div>
