@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Benguiat_Normal;
+    src: url(../src/assets/fonts/Benguiat_Normal.ttf);
+}
+@font-face {
+    font-family: Benguiat_Bold;
+    src: url(../src/assets/fonts/Benguiat_Bold.ttf);
+}
+@font-face {
+    font-family: Benguiat_Regular;
+    src: url(../src/assets/fonts/Benguiat_Regular.ttf);
+}
+
+h1 {
+    font-family: Benguiat_Bold;
+}
+
+.bold {
+    font-family: Benguiat_Bold;
+}
+
+p {
+    font-family: Benguiat_Regular;
+}
+
+span {
+    font-family: Benguiat_Normal;
+}
