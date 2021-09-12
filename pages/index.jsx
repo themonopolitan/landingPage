@@ -49,7 +49,7 @@ export default function Home() {
           <span>¿Quién dijo que no es momento de emprender? La actual pandemia nos ha llenado de temores, frustraciones e incertidumbre. Los periódicos y noticieros se han encargado de difundir el lado más oscuro: millones de empleos perdidos, países en crisis, personas deprimidas, muerte y desconsuelo. Pero también existe un lado B. El lado de las oportunidades, el de las posibilidades, el de las ideas y el del “sí se puede”.</span>
         </div>
         <div className="border my-6 w-3/4" />
-        <div className="text-xl text-justify font-light my-10 w-3/5">
+        <div className="text-lg text-justify font-light my-10 w-3/5">
           <span>
             <p classNames="bold"> Esta Masterclass puede convertirse en los mejores 60 minutos de tu vida.</p>
 
@@ -66,7 +66,7 @@ export default function Home() {
         </div>
       </section>
       <section className="center-Y flex-col">
-        <div className="text-xl text-justify font-light my-10 w-3/5">
+        <div className="text-lg text-justify font-light my-10 w-3/5">
           <span>Esta Masterclass es para ti si:
 
             Haz intentado emprender en más de una ocasión, sin éxito
@@ -80,7 +80,7 @@ export default function Home() {
             O simplemente tienes curiosidad de conocer qué negocios funcionarán con éxito en el 2022</span>
         </div>
         <div className="border my-6 w-3/4" />
-        <div className="text-xl text-justify font-light my-10 w-3/5">
+        <div className="text-lg text-justify font-light my-10 w-3/5">
           <span>
             Aquí te cuento un poco sobre mi:
 
