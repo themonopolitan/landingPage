@@ -12,20 +12,19 @@ export default function Home() {
         <span className="text-lg font-light my-10 w-3/5">Descubrirás oportunidades de negocios rentables para emprender en el 2022, sin mucho presupuesto y con gran potencial</span>
       </section>
 
-      <section className="center-X w-full relative">
+      <section className="center-X w-full flex-col">
         <div className="absolute w-full h-1/2" />
 
-        <div className="w-full grid grid-cols-12 relative gap-5">
-          <div className="w-container col-span-5 col-start-3">
+        <div className="w-2/4 centers">
+          <div className="w-container">
             <iframe src="https://player.vimeo.com/video/540944873?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=9d328be537" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Ejercicio utilizando el enfoque de &amp;quot;Podar&amp;quot;"></iframe>
           </div>
-          <div className="col-span-3 flex ">
-            <Form />
-          </div>
         </div>
-        <div className="border my-4" />
+        <div className="w-2/4 mt-10">
+          <Form />
+        </div>
+        <div className="border my-6 w-3/4" />
       </section>
-
       <div className="center-X container mx-auto my">
       </div>
       <style jsx global>{
