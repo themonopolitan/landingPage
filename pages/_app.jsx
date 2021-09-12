@@ -1,9 +1,10 @@
 import 'tailwindcss/tailwind.css'
-import '../Styles/Global.css'
+import '../styles/global.css'
+import '../styles/fonts.css'
 
 function MyApp({ Component, pageProps }) {
   return <>
-      <Component {...pageProps} />
+    <Component {...pageProps} />
   </>
 }
 

@@ -47,13 +47,13 @@ const Form = () => {
     </>
 }
 
-const CustomInput = ({ id, placeholder, type, name }) => {
+export const CustomInput = ({ id, placeholder, type, name, solo }) => {
 
     return <>
         <div className="flex flex-col mx-3.5">
             <label className="text-black text-xs font-light text-left" htmlFor={id}>{name}</label>
             <input
-                className="bg-transparent border-b border-black p-1 text-gray-800 outline-none text-sm mb-10"
+                className={`bg-transparent border-b border-black p-1 text-gray-800 outline-none text-sm ${solo ? 'mb-00' : 'mb-10'}`}
                 id={id}
                 placeholder={placeholder}
                 type={type}
