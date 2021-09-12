@@ -94,7 +94,7 @@ export default function Home() {
         </div>
         <div className="border my-6 w-3/4" />
         <div className="text-lg text-justify font-light my-10 w-3/5">
-          <div className="flex">
+          <div className="centers">
             <div className="rounded-full h-40 w-40 box-content overflow-hidden">
               <img className="h-44 centers" src="https://themonopolitan.com/assets/img/negocio/foto.jpg" alt="" />
             </div>
@@ -105,7 +105,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div>
+          <div className="mt-10">
             <span>
               Aquí te cuento un poco sobre mi:
 
@@ -121,10 +121,7 @@ export default function Home() {
             </span>
           </div>
         </div>
-        <div className="border my-6 w-3/4" />
       </section>
-      <div className="center-X container mx-auto my">
-      </div>
       <Footer />
       <style jsx global>{
         `
