@@ -24,7 +24,7 @@ const Form = () => {
     ]
 
     return <>
-        <div className="p-5 shadow-xl bg-white w-full flex flex-col justify-between ">
+        <div className="p-5 shadow-xl bg-white w-full flex flex-col justify-between">
             <span className="center-X mb-3">Regístrare a la Masterclass</span>
             <div>
                 {
