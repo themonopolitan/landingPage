@@ -2,6 +2,7 @@ import MainLayout from '../src/Layout/Main'
 import Form from '../src/components/Form'
 import { CustomInput } from '../src/components/Form'
 import Footer from '../src/components/Footer'
+import Figuritas from '../src/components/Figuritas'
 
 export default function Home() {
   return (
@@ -44,7 +45,15 @@ export default function Home() {
         <div className="border my-6 mt-16 w-3/4" />
       </section>
 
-      <section className="center-Y flex-col">
+      <section className="center-Y flex-col relative">
+        <Figuritas
+          color={'bg-red-300'}
+          position={' -right-44 bottom-0'}
+        />
+        <Figuritas
+          color={'bg-secondary'}
+          position={' -left-44 top-0'}
+        />
         <div className="text-2xl text-justify font-light my-10 w-3/5">
           <span>¿Quién dijo que no es momento de emprender? La actual pandemia nos ha llenado de temores, frustraciones e incertidumbre. Los periódicos y noticieros se han encargado de difundir el lado más oscuro: millones de empleos perdidos, países en crisis, personas deprimidas, muerte y desconsuelo. Pero también existe un lado B. El lado de las oportunidades, el de las posibilidades, el de las ideas y el del “sí se puede”.</span>
         </div>
@@ -59,13 +68,17 @@ export default function Home() {
 
             Acuérdate que todo comienza con una buena idea y yo tengo muchas para compartir contigo.
           </span>
-          <div className="border my-6 w-3/4" />
-          <div className="w-full center-X">
-            <Form />
-          </div>
+        </div>
+        <div className="border my-6 w-3/4" />
+        <div className="w-4/6 center-X">
+          <Form />
         </div>
       </section>
-      <section className="center-Y flex-col">
+      <section className="center-Y flex-col relative">
+        <Figuritas
+          color={'bg-secondary'}
+          position={' -left-44'}
+        />
         <div className="text-lg text-justify font-light my-10 w-3/5">
           <span>Esta Masterclass es para ti si:
 
@@ -81,21 +94,34 @@ export default function Home() {
         </div>
         <div className="border my-6 w-3/4" />
         <div className="text-lg text-justify font-light my-10 w-3/5">
-          <span>
-            Aquí te cuento un poco sobre mi:
+          <div className="flex">
+            <div className="rounded-full h-40 w-40 box-content overflow-hidden">
+              <img className="h-44 centers" src="https://themonopolitan.com/assets/img/negocio/foto.jpg" alt="" />
+            </div>
+            <div className="flex flex-col ml-5">
+              <p className="bold text-4xl">Juan Pablo</p>
+              <span className="mt-2 font-light">CEO & Founder</span>
+              <span className="mt-2 font-semibold">@themonopolitan</span>
+            </div>
+          </div>
 
-            Todos los días, junto con mi equipo, investigo y escribo sobre ideas de negocios surgiendo alrededor del mundo. Hasta la fecha, hemos reportado y analizado cerca de 3,500 emprendimientos.
+          <div>
+            <span>
+              Aquí te cuento un poco sobre mi:
 
-            Creo que todo gran negocio inicia con una buena idea y mi propósito es ese: ayudarte a encontrar una gran idea que te permita lograr tus sueños.
+              Todos los días, junto con mi equipo, investigo y escribo sobre ideas de negocios surgiendo alrededor del mundo. Hasta la fecha, hemos reportado y analizado cerca de 3,500 emprendimientos.
 
-            En 6 años he logrado hacer de The Monopolitan un medio independiente con reconocimiento internacional. Tan solo en lo que va de este 2021, más de 3 millones de personas han visitado nuestra web en busca de ideas y oportunidades para emprender.
+              Creo que todo gran negocio inicia con una buena idea y mi propósito es ese: ayudarte a encontrar una gran idea que te permita lograr tus sueños.
 
-            También soy fundador de Mibox, una empresa pionera en el mundo de las food boxes que hoy factura varios millones de pesos al año.
+              En 6 años he logrado hacer de The Monopolitan un medio independiente con reconocimiento internacional. Tan solo en lo que va de este 2021, más de 3 millones de personas han visitado nuestra web en busca de ideas y oportunidades para emprender.
 
-            Y lo más importante: soy papá de María Emilia, una bebé de 6 meses y estoy felizmente casado desde hace 4 años con mi esposa Vany.
-          </span>
-          <div className="border my-6 w-3/4" />
+              También soy fundador de Mibox, una empresa pionera en el mundo de las food boxes que hoy factura varios millones de pesos al año.
+
+              Y lo más importante: soy papá de María Emilia, una bebé de 6 meses y estoy felizmente casado desde hace 4 años con mi esposa Vany.
+            </span>
+          </div>
         </div>
+        <div className="border my-6 w-3/4" />
       </section>
       <div className="center-X container mx-auto my">
       </div>
