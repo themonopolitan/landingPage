@@ -39,7 +39,7 @@ const CarrusellBanner = () => {
 
 const Date = ({ fecha, wb }) => {
     return <>
-        <div className="w-60 h-full flex items-center justify-center px-2 text-white">
+        <div className="w-60 h-full flex items-center justify-center text-white">
             {
                 wb
                     ? <span className="font-bold">
