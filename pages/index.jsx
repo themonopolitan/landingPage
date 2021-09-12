@@ -5,9 +5,9 @@ export default function Home() {
   return (
     <MainLayout>
       <section className="centers flex-col text-4xl text-center">
-        <span className="lg:w-1/4 mt-10 lg:mt-24 mb-10 overflow-hidden">
+        <h1 className="lg:w-1/4 mt-10 lg:mt-24 mb-10 overflow-hidden">
           Lluvia de ideas, negocios y oportunidades para el 2022.
-        </span>
+        </h1>
         <div className="w-60 border" />
         <span className="text-lg font-light my-10 w-3/5">Descubrirás oportunidades de negocios rentables para emprender en el 2022, sin mucho presupuesto y con gran potencial</span>
       </section>
@@ -35,7 +35,7 @@ export default function Home() {
         <div className="border my-6 w-3/4" />
         <div className="text-lg text-center font-light my-10 w-3/5">
           <span>
-            Esta Masterclass puede convertirse en los mejores 60 minutos de tu vida.
+            <p class="bold"> Esta Masterclass puede convertirse en los mejores 60 minutos de tu vida.</p>
 
             Quiero ayudarte a que encuentres una idea de negocio que te diversifique y que en un futuro multiplique tus ingresos.
 
