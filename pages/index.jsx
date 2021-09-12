@@ -16,10 +16,10 @@ export default function Home() {
         <div className="absolute w-full h-1/2" />
 
         <div className="w-full grid grid-cols-12 relative gap-5">
-          <div className="w-container col-span-6 col-start-3">
+          <div className="w-container col-span-5 col-start-3">
             <iframe src="https://player.vimeo.com/video/540944873?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=9d328be537" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Ejercicio utilizando el enfoque de &amp;quot;Podar&amp;quot;"></iframe>
           </div>
-          <div className="col-span-2">
+          <div className="col-span-3">
             <Form />
           </div>
         </div>
