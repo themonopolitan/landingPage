@@ -7,18 +7,6 @@
     src: url(../src/assets/fonts/Benguiat_Bold.ttf);
 }
 
-h1 {
-    font-family: Benguiat_Bold;
-}
-
-.bold {
-    font-family: Benguiat_Bold;
-}
-
-p {
-    font-family: Benguiat_Normal;
-}
-
-span {
+* {
     font-family: Benguiat_Normal;
 }

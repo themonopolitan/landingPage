@@ -47,17 +47,19 @@ const Form = () => {
     </>
 }
 
-export const CustomInput = ({ id, placeholder, type, name, solo }) => {
+export const CustomInput = ({ id, placeholder, type, color, solo }) => {
 
     return <>
-        <div className="flex flex-col mx-3.5">
-            <label className="text-black text-xs font-light text-left" htmlFor={id}>{name}</label>
+        <div className="grid grid-cols-8 gap-2">
             <input
-                className={`bg-transparent border-b border-black p-1 text-gray-800 outline-none text-sm ${solo ? 'mb-00' : 'mb-10'}`}
+                className={`col-span-5 bg-transparent border border-gray-400 text-center p-1 text-gray-800 outline-none text-sm ${solo ? 'mb-00' : 'mb-10'}`}
                 id={id}
                 placeholder={placeholder}
                 type={type}
             />
+            <button className={`${color} text-white p-3 py-3 text-sm col-span-3 `}>
+                ¡Apúintate!
+            </button>
         </div>
     </>
 }
