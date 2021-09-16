@@ -50,14 +50,16 @@ const Form = () => {
 export const CustomInput = ({ id, placeholder, type, color, solo }) => {
 
     return <>
-        <div className="grid grid-cols-8 gap-2">
+        <div className="mx-5 lg:mx-0 grid grid-cols-8 gap-2">
+
             <input
-                className={`col-span-5 bg-transparent border-2 border-gray-400 text-center p-1 text-gray-800 outline-none text-sm ${solo ? 'mb-00' : 'mb-10'}`}
+                className={`col-span-8 h-12 lg:col-span-5 bg-transparent border-2 border-gray-400 text-center p-1 text-gray-800 outline-none text-sm ${solo ? 'mb-00' : 'mb-10'}`}
                 id={id}
                 placeholder={placeholder}
                 type={type}
             />
-            <button className={`${color} bg-secondary text-white p-3 py-4 text-sm col-span-3 hover:bg-red-400 focus:outline-none `}>
+
+            <button className={`${color} bg-secondary text-white p-3 py-4 text-sm col-span-8 lg:col-span-3 hover:bg-red-400 duration-300 focus:outline-none `}>
                 Apúntate
             </button>
         </div>
