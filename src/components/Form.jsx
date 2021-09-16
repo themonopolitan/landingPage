@@ -53,7 +53,7 @@ export const CustomInput = ({ id, placeholder, type, color, solo }) => {
         <div className="mx-5 lg:mx-0 grid grid-cols-8 gap-2">
 
             <input
-                className={`col-span-8 h-12 lg:col-span-5 bg-transparent border-2 border-gray-400 text-center p-1 text-gray-800 outline-none text-sm ${solo ? 'mb-00' : 'mb-10'}`}
+                className={`col-span-8 h-12 lg:h-auto lg:col-span-5 bg-transparent border-2 border-gray-400 text-center p-1 text-gray-800 outline-none text-sm ${solo ? 'mb-00' : 'mb-10'}`}
                 id={id}
                 placeholder={placeholder}
                 type={type}
