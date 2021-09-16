@@ -7,15 +7,15 @@ import Figuritas from '../src/components/Figuritas'
 export default function Home() {
   return (
     <MainLayout>
-      <section className="centers flex-col text-6xl text-center bg-fondo">
-        <h1 className="lg:w-2/4 mt-10 lg:mt-24 mb-10 overflow-hidden font-black h-40">
-          Lluvia de ideas, negocios y oportunidades para el 2022.
+      <section className="centers flex-col text-5xl text-center bg-fondo">
+        <h1 className="lg:w-2/4 mt-12 lg:mt-24 overflow-hidden font-black h-40">
+          Lluvia de ideas, negocios y oportunidades para el 2022
         </h1>
-        <span className="text-2xl font-light mb-12 w-3/5">En esta masterclass de 60 minutos descubrirásoportunidades de negocios
+        <span className="text-xl font-light mb-10 w-2/5">En esta masterclass de 60 minutos descubrirás oportunidades de negocios
           rentables para emprenderen el 2022, sin mucho presupuesto
           y con gran potencial:
         </span>
-        <div className="mb-16 center-X items-end w-2/5">
+        <div className="mb-12 center-X items-end w-2/5">
           <div className="w-96">
             <CustomInput
               id={'email'}
@@ -37,7 +37,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="border my-6 mt-16 w-3/4" />
+       
         <Figuritas
           size={'80'}
           color={'bg-secondary'}
@@ -48,7 +48,7 @@ export default function Home() {
 
       <section className="center-Y flex-col relative">
 
-        <div className="text-3xl text-justify font-light my-10 w-3/5 overflow-hidden">
+        <div className="text-2xl text-justify font-light mt-14 w-3/5 overflow-hidden">
           <span>La actual pandemia nos ha llenado de temores, frustraciones e incert
             idumbre. Los periódicos y noticieros se han encargado de difundir el
             lado más oscuro: millones de empleos perdidos, países en crisis,
@@ -64,16 +64,15 @@ export default function Home() {
           padding={'8'}
         />
 
-        <div className="border my-6 w-3/4" />
-        <div className="text-2xl text-justify font-light my-10 w-3/5 overflow-hidden">
+        <div className="border mt-10 w-3/4" />
+        <div className="text-xl text-justify font-light my-10 w-3/5 overflow-hidden">
           <span classNames="bold">Esta Masterclass puede convertirse en los mejores 60 minutos de tu vida.
             Quiero ayudarte a encontrar una idea de negocio que te diversifique y que,
-            en un futuro, multiplique tu ingresos.Todo comienza con una idea, y yo te
-            ngo muchas para compartir contigo.
+            en un futuro, multiplique tus ingresos. Todo comienza con una idea, y yo tengo muchas para compartir contigo.
 
           </span>
         </div>
-        <div className="border my-6 w-3/4" />
+        <div className="border mt-0 mb-10 w-3/4" />
       </section>
       <section className="center-Y flex-col relative">
         <Figuritas
@@ -82,16 +81,16 @@ export default function Home() {
           position={' -left-44'}
           padding={'8'}
         />
-        <div className="flex justify-start w-3/5 text-2xl leading-8">
+        <div className="flex justify-start w-3/5 text-xl leading-8 font-black">
           <span>Esta Masterclass es para ti si: </span>
         </div>
-        <div className="centers flex-col font-light my-10 w-3/5 text-2xl">
+        <div className="centers flex-col font-light my-10 w-3/5 text-xl">
           <ol className="leading-loose">
             <li>1. Haz intentado emprender en más de una ocasión, sin éxito</li>
             <li>2. Quieres emprender, pero no sabes qué negocio poner</li>
             <li>3. Deseas generar una nueva fuente de ingresos</li>
-            <li>4. Tienes un negocio y quieres aprovechar las nuevas oportunidades para hacerlo crecer</li>
-            <li>5. O simplemente tienes curiosidad de conocer qué negocios funcionarán con éxito en el 2022</li>
+            <li>4. Tienes un negocio y quieres hacerlo crecer</li>
+            <li>5. Tienes curiosidad de conocer qué negocios funcionarán con éxito</li>
           </ol>
         </div>
         <div className="w-96">
@@ -103,11 +102,11 @@ export default function Home() {
             solo
           />
         </div>
-        <div className="border my-6 w-3/4" />
+        <div className="border mt-12 w-3/4" />
         <div className="text-lg text-justify font-light my-10 w-3/5">
           <div className="centers">
 
-            <div className="relative w-full overflow-hidden h-48 centers">
+            <div className="relative w-6/6 overflow-hidden h-48 centers">
               <Figuritas
                 size={'48'}
                 color={'bg-red-300'}
@@ -115,40 +114,40 @@ export default function Home() {
                 padding={'2'}
               />
 
-              <div className="flex flex-col ml-5 w-3/5">
-                <p className="bold text-4xl overflow-hidden font-black">!HOLA¡</p>
-                <span className="mt-2 font-light text-2xl">Soy Juan Pablo, fundador de @themonopolitan
-                  y mi en esta Masterclass de 60 minutos es
+              <div className="flex flex-col ml-5 w-4/5">
+                <p className="bold text-4xl overflow-hidden font-black">HOLA</p>
+                <span className="mt-2 font-light text-xl">Soy Juan Pablo, fundador de @themonopolitan
+                  y mi objetivo en esta Masterclass de 60 minutos es
                   ayudarte a encontrar una idea de negocio que
                   multiplique tus ingresos.</span>
 
-              </div>
+              </div> 
             </div>
           </div>
-          <div className="mt-10 centers flex-col text-2xl">
-            <span className="w-4/5">
+          <div className="mt-10 centers flex-col text-xl">
+            <span className="w-5/5">
               Todos los días investigo y escribo sobre ideas de negocios innovadores.
-              Hasta la fecha, hemos reportado y analizado más de 3,500 emprendimien
-              tos y, nuestro sitio web, tan solo en el 2021, ha inspirado a más de 3 mill
-              ones de emprendedores de todo el mundo.
+              Hasta la fecha, hemos reportado y analizado más de 3,500 emprendimientos y, nuestro sitio web, tan solo en el 2021, ha inspirado a más de 3 millones de emprendedores de todo el mundo.
             </span>
             <br />
-            <span className="w-4/5">
+            <span className="w-5/5">
               También soy el fundador de mibox.mx, una empresa que lleva food boxes
               a empresas como Honda, Flex y Continental.
             </span>
           </div>
         </div>
-        <div className="border my-6 w-3/5" />
+        <div className="border mb-12 w-3/5 w-9/12" />
         <div className=" w-3/5">
-          <div className="text-3xl flex justify-start overflow-hidden ">
+          <div className="text-xl flex justify-start overflow-hidden font-black">
             Una razón más para unirte a la Masterclass:
           </div>
-          <span className="text-2xl">
+          <br />
+          <span className="text-xl">
             No solo podrás encontrar una idea de negocio para emprender, también
             podrías encontrar a tu futuro socio o inversionista:
           </span>
-          <div className="centers mb-16 mt-5">
+          <br />
+          <div className="centers mb-16 mt-10">
             <div className="w-96 ">
               <CustomInput
                 id={'email'}

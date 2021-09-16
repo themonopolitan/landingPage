@@ -25,7 +25,7 @@ const Form = () => {
 
     return <>
         <div className="w-2/4 mt-10">
-            <div className="p-5 shadow-xl bg-white w-full flex flex-col justify-between">
+            <div className="p-6 shadow-xl bg-white w-full flex flex-col justify-between">
                 <span className="center-X mb-3">Regístrare a la Masterclass</span>
                 <div>
                     {
@@ -52,13 +52,13 @@ export const CustomInput = ({ id, placeholder, type, color, solo }) => {
     return <>
         <div className="grid grid-cols-8 gap-2">
             <input
-                className={`col-span-5 bg-transparent border border-gray-400 text-center p-1 text-gray-800 outline-none text-sm ${solo ? 'mb-00' : 'mb-10'}`}
+                className={`col-span-5 bg-transparent border-2 border-gray-400 text-center p-1 text-gray-800 outline-none text-sm ${solo ? 'mb-00' : 'mb-10'}`}
                 id={id}
                 placeholder={placeholder}
                 type={type}
             />
-            <button className={`${color} text-white p-3 py-3 text-sm col-span-3 `}>
-                ¡Apúintate!
+            <button className={`${color} bg-secondary text-white p-3 py-4 text-sm col-span-3 hover:bg-red-400 focus:outline-none `}>
+                Apúntate
             </button>
         </div>
     </>

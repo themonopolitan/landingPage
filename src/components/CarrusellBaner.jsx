@@ -43,7 +43,7 @@ const Date = ({ fecha, wb }) => {
             {
                 wb
                     ? <span className="font-bold">
-                        Masterclass!!
+                        Masterclass
                     </span>
                     : <>
                         <span>Jueves 17 de Octubre</span>
