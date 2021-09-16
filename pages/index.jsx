@@ -128,7 +128,7 @@ export default function Home() {
         </div>
         <div className="border mt-12 w-3/4" />
 
-        <section className="text-lg text-justify font-light my-10 lg:w-3/5">
+        <section className="text-lg text-justify font-light my-10 lg:w-10/12 xl:w-3/5">
           <div className="centers">
 
             <div className="relative w-6/6 overflow-hidden lg:h-48 centers flex flex-col lg:flex-row">
