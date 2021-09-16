@@ -140,7 +140,10 @@ export default function Home() {
               />
 
               <div className="flex flex-col px-3 lg:px-0 lg:ml-5 lg:w-4/5">
-                <p className="bold text-4xl overflow-hidden font-black">HOLA</p>
+                {
+                  sizeDocument >= 1024 &&
+                  <p className="bold text-4xl overflow-hidden font-black">HOLA</p>
+                }
                 <span className="mt-2 font-light text-xl">Soy Juan Pablo, fundador de @themonopolitan
                   y mi objetivo en esta Masterclass de 60 minutos es
                   ayudarte a encontrar una idea de negocio que
@@ -154,15 +157,18 @@ export default function Home() {
               Hasta la fecha, hemos reportado y analizado más de 3,500 emprendimientos y, nuestro sitio web, tan solo en el 2021, ha inspirado a más de 3 millones de emprendedores de todo el mundo.
             </span>
             <br />
-            <span className="w-5/5 mx-3 lg:mx-0">
-              También soy el fundador de mibox.mx, una empresa que lleva food boxes
-              a empresas como Honda, Flex y Continental.
-            </span>
+            {
+              sizeDocument >= 1024 &&
+              <span className="w-5/5 mx-3 lg:mx-0">
+                También soy el fundador de mibox.mx, una empresa que lleva food boxes
+                a empresas como Honda, Flex y Continental.
+              </span>
+            }
           </div>
         </section>
         <div className="border mb-12 w-9/12" />
         <div className="lg:w-3/5">
-          <div className="text-xl flex justify-start overflow-hidden font-black px-3 lg:px-0">
+          <div className="text-xl flex text-center lg:text-left justify-start overflow-hidden font-black px-3 lg:px-0">
             Una razón más para unirte a la Masterclass:
           </div>
           <br />
