@@ -167,15 +167,17 @@ export default function Home() {
           </div>
         </section>
         <div className="border mb-12 w-9/12" />
-        <div className="lg:w-3/5">
+        <div className="lg:w-3/5 w-full px-3 lg:px-0">
           <div className="text-xl flex text-center lg:text-left justify-start overflow-hidden font-black px-3 lg:px-0">
             Una razón más para unirte a la Masterclass:
           </div>
           <br />
-          <span className="text-xl mx-3 lg:mx-0 text-justify">
-            No solo podrás encontrar una idea de negocio para emprender, también
-            podrías encontrar a tu futuro socio o inversionista:
-          </span>
+          <div className="text-justify">
+            <span className="text-xl">
+              No solo podrás encontrar una idea de negocio para emprender, también
+              podrías encontrar a tu futuro socio o inversionista:
+            </span>
+          </div>
           <br />
           <div className="centers mb-16 mt-10">
             <div className="w-96 ">
