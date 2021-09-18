@@ -1,10 +1,10 @@
 import MainLayout from '../src/Layout/Main'
-import Form from '../src/components/Form'
 import { CustomInput } from '../src/components/Form'
 import Footer from '../src/components/Footer'
 import Figuritas from '../src/components/Figuritas'
 import useWindowSize from '../src/hooks/useWindowsSize'
 import { useEffect, useState } from 'react'
+import Video from '../src/components/Video'
 
 export default function Home() {
 
@@ -45,31 +45,13 @@ export default function Home() {
         </div>
         {/* <div className="w-60 border my-10" /> */}
       </section>
-
-      <section className="center-Y w-full flex-col relative">
-        <div className="absolute h-1/2 bg-fondo w-full" />
-        <div className="w-full px-3 lg:w-3/5 centers ">
-          <div className="w-container sticky">
-            <iframe src="https://player.vimeo.com/video/540944873?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=9d328be537" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Ejercicio utilizando el enfoque de &amp;quot;Podar&amp;quot;"></iframe>
-          </div>
-        </div>
-
-        {
-          sizeDocument >= 1024 &&
-          <Figuritas
-            size={'80'}
-            color={'bg-secondary'}
-            position={' -left-44 bottom-0'}
-            padding={'8'}
-          />
-        }
-      </section>
-
+      <Video
+      url={'https://player.vimeo.com/video/540944873?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=9d328be537'}
+      />
       <section className="center-Y flex-col relative">
 
         <div className="lg:text-2xl text-xl mx-3 lg:mx-0 text-justify font-light mt-14 lg:w-3/5 overflow-hidden">
-          <span>La actual pandemia nos ha llenado de temores, frustraciones e incert
-            idumbre. Los periódicos y noticieros se han encargado de difundir el
+          <span>La actual pandemia nos ha llenado de temores, frustraciones e incertidumbre. Los periódicos y noticieros se han encargado de difundir el
             lado más oscuro: millones de empleos perdidos, países en crisis,
             personas deprimidas, muerte y desconsuelo. Pero también existe un
             lado B. El lado de las oportunidades, el de las posibilidades, el de las
@@ -194,29 +176,7 @@ export default function Home() {
 
       </section>
       <Footer />
-      <style jsx global>{
-        `
-            .w-container {
-                width: 100%;
-                height: 0;
-                padding-bottom: 56.25%;
-                position: relative;
-            }
-            .w-container iframe {
-              position: absolute;
-              width: 100%;
-              height: 100%;
-            }
-            @media (min-width: 1024px){
-                .sportradar-container {
-                    width: 100%;
-                    height: 0;
-                    padding-bottom: 79.25%;
-                    position: relative;
-                }
-            }
-            `
-      }</style>
+
     </MainLayout >
 
   )
