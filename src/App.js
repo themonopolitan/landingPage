@@ -1,29 +1,26 @@
-import MainLayout from '../src/Layout/Main'
-import { CustomInput } from '../src/components/Form'
-import Footer from '../src/components/Footer'
-import Figuritas from '../src/components/Figuritas'
-import useWindowSize from '../src/hooks/useWindowsSize'
-import { useEffect, useState } from 'react'
-import Video from '../src/components/Video'
+import { CustomInput } from './components/Form'
+import Figuritas from './components/Figuritas'
+import { useState, useEffect } from 'react';
+import useWindowsSize from './hooks/useWindowsSize'
+import Video from './components/Video'
 
-export default function Home() {
+const App = () => {
 
-  const size = useWindowSize()
+  const size = useWindowsSize()
   const [sizeDocument, setSizeDocument] = useState()
-
 
   useEffect(() => {
     let box = document.body;
     let width = box.offsetWidth;
-    setSizeDocument(width);
-  }, []);
+    setSizeDocument(width)
+  }, [])
 
   useEffect(() => {
     if (size.width != undefined) setSizeDocument(size.width);
-  }, [size]);
+  }, [size])
 
   return (
-    <MainLayout>
+    <>
       <section className="centers flex-col text-4xl lg:text-5xl text-center bg-fondo">
         <h1 className="lg:w-2/4 mt-12 lg:mt-24 overflow-hidden font-black py-10">
           Lluvia de ideas, negocios y oportunidades para el 2022
@@ -46,7 +43,7 @@ export default function Home() {
         {/* <div className="w-60 border my-10" /> */}
       </section>
       <Video
-      url={'https://player.vimeo.com/video/540944873?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=9d328be537'}
+        url={'https://player.vimeo.com/video/540944873?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=9d328be537'}
       />
       <section className="center-Y flex-col relative">
 
@@ -175,9 +172,8 @@ export default function Home() {
         </div>
 
       </section>
-      <Footer />
-
-    </MainLayout >
-
-  )
+    </>
+  );
 }
+
+export default App;
