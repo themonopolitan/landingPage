@@ -40,6 +40,7 @@ const App = () => {
             />
           </div>
         </div>
+        
         {/* <div className="w-60 border my-10" /> */}
       </section>
       <Video
