@@ -36,7 +36,6 @@ const CarrusellBanner = () => {
     </>
 }
 
-
 const Date = ({ fecha, wb }) => {
     return <>
         <div className="w-60 h-full flex items-center justify-center text-white">
@@ -53,4 +52,5 @@ const Date = ({ fecha, wb }) => {
         </div>
     </>
 }
+
 export default CarrusellBanner

@@ -13,7 +13,7 @@ const Video = ({ url }) => {
   }, []);
 
   useEffect(() => {
-    if (size.width != undefined) setSizeDocument(size.width)
+    if (size.width !== undefined) setSizeDocument(size.width)
   }, [size]);
 
 

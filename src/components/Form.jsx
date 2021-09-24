@@ -1,5 +1,3 @@
-import { info } from "autoprefixer"
-
 const Form = () => {
 
     const inputsInfo = [
@@ -38,6 +36,7 @@ const Form = () => {
                 </div>
             </div>
         </div>
+        
     </>
 }
 

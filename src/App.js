@@ -3,7 +3,7 @@ import Figuritas from './components/Figuritas'
 import { useState, useEffect } from 'react';
 import useWindowsSize from './hooks/useWindowsSize'
 import Video from './components/Video'
-
+// import axios from 'axios';
 const App = () => {
 
   const size = useWindowsSize()
@@ -16,8 +16,13 @@ const App = () => {
   }, [])
 
   useEffect(() => {
-    if (size.width != undefined) setSizeDocument(size.width);
+    if (size.width !== undefined) setSizeDocument(size.width);
   }, [size])
+
+  const sendEmail = () => {
+    console.log('juan');
+  }
+
 
   return (
     <>
@@ -40,7 +45,8 @@ const App = () => {
             />
           </div>
         </div>
-        
+
+
         {/* <div className="w-60 border my-10" /> */}
       </section>
       <Video
@@ -97,6 +103,9 @@ const App = () => {
             <li>5. Tienes curiosidad de conocer qué negocios funcionarán con éxito</li>
           </ol>
         </div>
+        <button className="text-lg" onclick={() => sendEmail()}>
+          Click here to show popup
+        </button>
         <div className="w-96">
           <CustomInput
             id={'email'}
