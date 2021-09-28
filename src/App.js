@@ -19,11 +19,6 @@ const App = () => {
     if (size.width !== undefined) setSizeDocument(size.width);
   }, [size])
 
-  const sendEmail = () => {
-    console.log('juan');
-  }
-
-
   return (
     <>
       <section className="centers flex-col text-4xl lg:text-5xl text-center bg-fondo">
@@ -45,9 +40,6 @@ const App = () => {
             />
           </div>
         </div>
-
-
-        {/* <div className="w-60 border my-10" /> */}
       </section>
       <Video
         url={'https://player.vimeo.com/video/540944873?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=9d328be537'}
@@ -103,9 +95,6 @@ const App = () => {
             <li>5. Tienes curiosidad de conocer qué negocios funcionarán con éxito</li>
           </ol>
         </div>
-        <button className="text-lg" onclick={() => sendEmail()}>
-          Click here to show popup
-        </button>
         <div className="w-96">
           <CustomInput
             id={'email'}
