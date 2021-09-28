@@ -46,7 +46,7 @@ const Date = ({ fecha, wb }) => {
                         Masterclass
                     </span>
                     : <>
-                        <span>Jueves 17 de Octubre</span>
+                        <span>Miercoles 13 de Octubre</span>
                         <div className="ml-1">{fecha}</div>
                     </>
             }
