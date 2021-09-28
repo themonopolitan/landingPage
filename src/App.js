@@ -42,7 +42,7 @@ const App = () => {
         </div>
       </section>
       <Video
-        url={'https://player.vimeo.com/video/540944873?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;h=9d328be537'}
+        url={'https://player.vimeo.com/video/615399424?h=2af5b48482&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479'}
       />
       <section className="center-Y flex-col relative">
 
