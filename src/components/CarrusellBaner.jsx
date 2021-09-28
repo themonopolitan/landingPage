@@ -26,11 +26,11 @@ const CarrusellBanner = () => {
         .slideTrack {
             animation: scroll 30s linear infinite;
             display: flex;
-            width: calc(239.31px *16 );
+            width: calc(288.31px *16 );
         }
         @keyframes scroll {
             0% { transform: translateX(0); }
-            100% { transform: translateX(calc(-239.31px * 8))}
+            100% { transform: translateX(calc(-288.31px * 8))}
         }
       `}</style>
     </>
@@ -38,14 +38,14 @@ const CarrusellBanner = () => {
 
 const Date = ({ fecha, wb }) => {
     return <>
-        <div className="w-60 h-full flex items-center justify-center text-white">
+        <div className="w-72 h-full flex items-center justify-center text-white">
             {
                 wb
                     ? <span className="font-bold">
                         Masterclass
                     </span>
                     : <>
-                        <span>Jueves 17 de Octubre</span>
+                        <span>Miércoles 13 de Octubre</span>
                         <div className="ml-1">{fecha}</div>
                     </>
             }
